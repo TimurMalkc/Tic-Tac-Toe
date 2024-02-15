@@ -186,6 +186,7 @@ public class Main implements ActionListener{
 		button8.setIcon(null);
 		button9.setIcon(null);
 		gameOver = false;
+		isDraw = false;
 		label.setText("It's "+turn+"'s turn to play");
 		buttonRestart.setVisible(false);
 		newFrame();
